@@ -15,6 +15,6 @@ env_logger = "0"
 goldboot = { path="../goldboot", version = "0.0.1" }
 log = { version = "0", default-features = false }
 rustls = "0"
-rustls-pemfile = "0"
+rustls-pemfile = "1"
 simple-error = "0"
 reqwest = { version = "0", features=["stream"] }
